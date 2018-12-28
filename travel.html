@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Travel</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="css/travel.css">
+</head>
+
+<body>
+    <header class="bg-city">
+        <div class="container">
+            <h2 class="text-white text-center travel-title">高雄旅遊資訊</h2>
+            <select name="dist" id="distSelect" class="headerSelect">
+                <option value="">--請選擇區域--</option>
+            </select>
+            <div class="popularDist">
+                <p class="pt-2 pl-2" style="font-size: 20px">熱門行政區</p>
+                <div class="row justify-content-around btnarea">
+                    <div class="col ml-3 mb-2">
+                        <button class="btn px-4 btn-success" value="苓雅區">苓雅區</button>
+                    </div>
+                    <div class="col ml-3 mb-2">
+                        <button class="btn px-4 btn-success" value="三民區">三民區</button>
+                    </div>
+                    <div class="col ml-3 mb-2">
+                        <button class="btn px-4 btn-success" value="美濃區">美濃區</button>
+                    </div>
+                    <div class="col ml-3 mb-2">
+                        <button class="btn px-4 btn-success" value="新興區">新興區</button>
+                    </div>
+                    <div class="col mx-3 mb-2">
+                        <button class="btn px-4 btn-success" value="前鎮區">前鎮區</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <img src="items/assets/if_arrow-down_1055120.svg">
+    </header>
+    <hr class="divLine">
+    <main class="container" style="margin-top: 65px;">
+        <p class="text-center distTitle" style="font-size: 36px">三民區</p>
+        <div class="row distDetail">
+            <!--<div class="col-md-6 mb-5">
+                <div class="card w-100" style="width: 18rem;">
+                    <div class="card-header cardHeaderBG">
+                        <p class="text-left cardTextLeft"></p>
+                        <p class="text-right cardTextRight distTitle"></p>
+                        <div class="clearfix"></div>
+                    </div>
+                    <div class="card-body">
+                        <p class="card-text"><img src="items/assets/iconfinder_Clock_381590.svg" style="margin-right: 10px; width: 18px; height: 18px">開放時間</p>
+                        <p class="card-text"><img src="items/assets/iconfinder_location_1055034.svg" style="margin-right: 10px; width: 18px; height: 18px">地址</p>
+                        <p class="card-text"><img src="items/assets/iconfinder_phone_1055012.svg" style="margin-right: 10px; width: 18px; height: 18px">連絡電話</p>
+                        <p class="card-text"><img src="items/assets/iconfinder_Tag_381612.svg" style="margin-right: 10px; width: 18px; height: 18px">票價</p>
+                    </div>
+                </div>
+            </div> -->
+
+
+        </div>
+        <div class="text-center mb-5">
+            <span class="mr-4"><a href="#">Prev</a></span>
+            <span class="mr-4"><a href="#">1</a></span>
+            <span class="mr-4"><a href="#">2</a></span>
+            <span class="mr-4"><a href="#">3</a></span>
+            <span class="mr-4"><a href="#">4</a></span>
+            <span class="mr-4"><a href="#">Next</a></span>
+        </div>
+    </main>
+    <footer class="text-center p-4">
+        <p class="text-white">高雄旅遊網</p>
+        <p class="text-warning">資料來源: 高雄市政府</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
+        crossorigin="anonymous"></script>
+    <script src="js/travel.js"></script>
+</body>
+
+</html>

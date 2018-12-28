@@ -1,0 +1,74 @@
+body{
+    font-family: Microsoft JhengHei;
+}
+
+.bg-city{
+    height: 380px;
+    background-image: url(../items/assets/Hero.png);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.travel-title{
+    padding-top: 80px;
+    letter-spacing: 4px;
+    font-size: 40px;
+    margin-bottom: 90px;
+}
+
+.headerSelect{
+    margin-left: 35.6%;
+    width: 320px;
+}
+
+.popularDist{
+    background-color: white;
+    box-shadow: 0 1px 3px 0 rgba(0,0,0,0.20);
+    border-radius: 5px;
+    position: absolute;
+    left: 26.8%;
+    bottom: -40px;
+}
+
+.divLine{
+    margin-top: 80px;
+    width: 1024px;
+    height:1px;
+    border-top: 1px #559AC8 dashed;
+}
+
+header img{
+    color: #559AC8;
+    position: absolute;
+    bottom: -89px;
+    left: 49%;
+    width: 20px;
+    height: 20px;
+}
+
+.cardHeaderBG{
+    height: 155px;
+    /*background-image: url(http://lorempixel.com/output/abstract-q-g-464-155-3.jpg);*/
+    background-size: cover;
+    background-position: center center;
+}
+
+.cardTextLeft{
+    color: white;
+    font-size: 28px;
+    margin-top: 92px;
+    display: inline-block;
+}
+
+.cardTextRight{
+    display: inline-block;
+    float: right;
+    margin-top: 95px;
+    color: white;
+    font-size: 20px;
+}
+
+footer{
+    background-color: #559AC8;
+}
